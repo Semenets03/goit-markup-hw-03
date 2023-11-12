@@ -66,10 +66,6 @@ body{
     color: black;
     background-color: #fff;
    }
-   .contact-list{
-    display: flex;
-    gap: 40px;
-   }
   
   .menu .link:hover {
     text-decoration: underline;
@@ -135,6 +131,7 @@ body{
   color: #404bbf;
   }
   .hero-image{
+    padding: 188px;
   border: 1px solid #000;
   background-color: #2e2f42;
   }
@@ -154,6 +151,12 @@ body{
   margin-right: auto;
   }
   .button-action{
+  display: block;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -179,6 +182,7 @@ body{
   margin-right: auto;
   }
   .benefits{
+  padding: 188px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
