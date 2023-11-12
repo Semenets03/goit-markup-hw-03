@@ -25,6 +25,7 @@ body{
   .menu-link{
     display: flex;
     gap: 40px;
+    padding: 24px;
   }
   button{
   cursor: pointer;
@@ -34,13 +35,13 @@ body{
     display: flex;
     margin: auto;
     padding: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
   .nav
   }
   .page-navigation{
    background: var(--WHITE, #FFF);
    text-decoration: none;
+   display: flex;
+   align-items: center;
   }
   .menu {
     padding: 10px;
@@ -131,7 +132,7 @@ body{
   color: #404bbf;
   }
   .hero-image{
-    padding: 188px;
+  padding: 188px;
   border: 1px solid #000;
   background-color: #2e2f42;
   }
@@ -152,8 +153,9 @@ body{
   }
   .button-action{
   display: block;
-  height: 56px;
+  min-width: 169px;
   border: none;
+  height: 56px;
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
@@ -161,7 +163,6 @@ body{
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  border: 1px solid #000;
   background: var(--IRIS, #4D5AE5);
   font-size: 16px;
   cursor: pointer;
@@ -182,6 +183,9 @@ body{
   margin-right: auto;
   }
   .benefits{
+    margin-bottom: 8px;
+  display: flex;
+  gap: 24px;
   padding: 188px;
   font-weight: 500;
   font-size: 20px;
@@ -189,6 +193,9 @@ body{
   letter-spacing: 0.02em;
   background: #ffffff;
   }
+  .visually-hidden{
+  }
+
   .made-benefits{
   font-weight: 500;
   font-size:20px;
@@ -197,6 +204,7 @@ body{
   color: #2e2f42;
   }
   .made-menu{
+  padding: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -204,6 +212,7 @@ body{
   color: #2e2f42;
   }
   .made-menu-item{
+  width: calc((100%-72px)/4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -224,6 +233,9 @@ body{
   color: var(--SLATE, #434455);
   }
   .our-team{
+  gap: 24px;
+  display: flex;
+  padding: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -233,7 +245,13 @@ body{
   border: 1px solid #000;
   background-color:#f4f4fd;
   }
+  .visually-hidden
+ .container{
+  padding: 32px;
+  }
   .our-team-title{
+  margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -245,6 +263,8 @@ body{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  border-radius: 0px 0px 0px 0px;
   }
   .our-team-name{
   background-color: #ffffff;
@@ -270,8 +290,11 @@ body{
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  margin-bottom: 8px;
   }
   .introduce{
+  text-align: center;
   color: var(--SLATE, #434455);
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -284,6 +307,8 @@ body{
   .section-portfolio{
   line-height: 1.11;
   background-color: #f4f4fd;
+  padding-top: 120px;
+  pa: 120px;
   }
   .section-portfolio-title{
   background-color: #ffffff;
@@ -291,6 +316,7 @@ body{
   line-height: 1.11;
   }
   .section-title{
+  margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -304,10 +330,15 @@ body{
   }
   
   .list-portfolio{
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  display: flex;
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
   background-color:#ffffff;
   }
   .portfolio-name{
+  width: calc((100% - 48px) / 3);
   font-family: Roboto, sans-serif;
   font-size:20px;
   font-style: normal;
