@@ -16,15 +16,31 @@ body{
   a {
     text-decoration: none;
   }
+  .logotype{
+    margin-right: 76px;
+  }
+  .menu{
+    gap: 40px;
+  }
+  .menu-link{
+    display: flex;
+    gap: 40px;
+  }
   button{
   cursor: pointer;
   }
   .page-header{
+    border-bottom:  1px solid #e7e9fc;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  .nav
   }
   .page-navigation{
-  
-  background: var(--WHITE, #FFF);
-  text-decoration: none;
+   background: var(--WHITE, #FFF);
+   text-decoration: none;
   }
   .menu {
     padding: 10px;
@@ -49,6 +65,10 @@ body{
     text-decoration: none;
     color: black;
     background-color: #fff;
+   }
+   .contact-list{
+    display: flex;
+    gap: 40px;
    }
   
   .menu .link:hover {
@@ -304,11 +324,13 @@ body{
   /*Footer*/
   .end{
   background: var(--NAVY-BLUE, #2E2F42);
+ 
+  }
+  .text-end{
   padding: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  }
-  .text-end{
+  max-width: 264px;
   line-height: 1.17;
   font-family: Roboto,sans-serif;
   font-size: 16px;
