@@ -317,6 +317,7 @@ body{
   background-color: #ffffff;
   font-size: 36px;
   line-height: 1.11;
+  padding-top: 120px;
   }
   .section-title{
   margin-bottom: 72px;
@@ -333,6 +334,7 @@ body{
   }
   
   .list-portfolio{
+  display: flex;
   row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
