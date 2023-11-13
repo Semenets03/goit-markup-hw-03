@@ -17,11 +17,6 @@ body{
   a {
     text-decoration: none;
   }
-  .logotype{
-    margin-right: 76px;
-    margin-bottom: 16px;
-    display: inline-block;
-  }
 
   .menu{
     gap: 40px;
@@ -79,6 +74,7 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS, #4D5AE5);
+  
   }
   .logotype-span{
   font-family: Raleway,sans-serif;
@@ -168,6 +164,7 @@ body{
   text-align: center;
   }
   .main-head{
+  padding: 188px;
   text-align: center;
   align-items: center;
   font-family: Roboto;
@@ -213,28 +210,35 @@ body{
   margin-left: auto;
   margin-right: auto;
   }
+
+
+
+
+
   .benefits{
-    margin-bottom: 8px;
+  margin-bottom: 8px;
   display: flex;
   gap: 24px;
-  padding: 188px;
+  padding: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   background: #ffffff;
   }
-  .visually-hidden{
-  }
 
   .made-benefits{
+  margin-bottom: 8px;
+  padding: 120px;
   font-weight: 500;
   font-size:20px;
   line-height:1.2;
   letter-spacing:0.02em;
   color: #2e2f42;
+  visibility: hidden;
   }
   .made-menu{
+  gap: 24px;
   padding: 120px;
   font-weight: 500;
   font-size: 20px;
@@ -250,6 +254,8 @@ body{
   letter-spacing: 0.02em;
   }
   .made-menu-item-name{
+  margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -277,6 +283,7 @@ body{
   background-color:#f4f4fd;
   }
   .visually-hidden
+
  .container{
   padding: 32px;
   }
@@ -393,22 +400,35 @@ body{
 
   /*Footer*/
   .end{
-   padding-top: 100px;
+   padding: 100px;
    background: var(--NAVY-BLUE, #2E2F42);
   }
 
   .text-end{
-  max-width: 264px;
-  line-height: 1.50; /* 150% */
-  letter-spacing: 0.02em;
+  max-width: 264;
+  line-height: 1.17;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
   color: #f4f4fd;
   color: var(--CLOUD, #F4F4FD);
   }
-  
+  .logotype{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+  }
+
   .logotype-span-foot{
   color: #f4f4fd;
+  display: inline-block; 
   }
-  .imeges{
+  .imeg{
     display: block;
   }
   
