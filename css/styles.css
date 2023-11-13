@@ -40,6 +40,12 @@ body{
     padding: 15px;
   .nav
   }
+
+  .list{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
   .page-navigation{
    background: var(--WHITE, #FFF);
    text-decoration: none;
@@ -352,6 +358,7 @@ body{
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2E2F42);
   }
+
   .portfolio-type{
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -361,28 +368,28 @@ body{
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
   }
+
   /*Footer*/
   .end{
-  padding: 100px;
-  background: var(--NAVY-BLUE, #2E2F42);
- 
+   padding: 100px;
+   background: var(--NAVY-BLUE, #2E2F42);
   }
+
   .text-end{
   max-width: 264px;
-  padding: 100px;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  color: var(--CLOUD, #F4F4FD);
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 264px;
   line-height: 1.17;
   font-family: Roboto,sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  color: var(--CLOUD, #F4F4FD);
   }
+  
   .logotype-span-foot{
   color: #f4f4fd;
   }
