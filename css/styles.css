@@ -13,7 +13,7 @@ body{
   p{
     margin: 0px;
   }
-  .img{
+  img {
     display: block;
   }
   .container{
@@ -181,9 +181,9 @@ li{
 
 
 
-  /*Hero*/
+  /* section 1*/
   .hero-image{
-   padding: 188px;
+   padding: 188px 0 188px;
    background-color: #2e2f42;
 
   }
@@ -237,13 +237,15 @@ li{
 
 
 
- /*section 1*/
+ /*section 2*/
   .benefits{
    gap: 24px;
-   padding: 188px 0;
+   padding: 120px 0 120px;
   }
 
- .visually-hidden
+ .visually-hidden{
+ }
+
  .made-benefits{
   display: flex;
   gap: 24px;
@@ -291,7 +293,7 @@ li{
 
 
 
- /*secton 2*/
+ /*secton 3*/
  .our-team{
   padding-top: 120px; 
   padding-bottom: 120px;
@@ -316,7 +318,7 @@ li{
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 4px 4px;
  }
  .our-team-name{
   display: flex;
@@ -364,7 +366,7 @@ li{
 
 
 
-   /*section 3*/
+   /*section 4*/
  .section-portfolio{
   line-height: 1.11;
   background-color: #f4f4fd;
