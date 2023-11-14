@@ -244,6 +244,12 @@ li{
   }
 
  .visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  border: 0;
+  padding: 0;
  }
 
  .made-benefits{
@@ -428,7 +434,7 @@ li{
 
   /*Footer*/
  .end{
-   padding: 100px;
+   padding: 100px 0;
    background: var(--NAVY-BLUE, #2E2F42);
  }
 
@@ -445,7 +451,7 @@ li{
  }
  .logotype{
     margin-bottom: 16px;
-    display:inline-block;
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
