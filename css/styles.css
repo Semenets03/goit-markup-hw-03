@@ -20,6 +20,7 @@ body{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
   }
   .header-conteiner{
     width: 1158px;
@@ -124,7 +125,7 @@ body{
   }
   .list{
     display: flex;
-    gap: 24px;
+    gap: 40px;
   }
 
   .menu-link:focus{
@@ -220,6 +221,7 @@ body{
   }
 
  .visually-hidden{
+  margin-bottom: 8px;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -230,9 +232,6 @@ body{
   clip-path: inset(100%);
   clip: rect(0 0 0);
   overflow: hidden;
-  outline: 0;
-  outline-offset: 0;
-  margin-bottom: 8px;
  }
 
  .made-benefits{
@@ -253,6 +252,7 @@ body{
   display: flex;
  }
  .made-menu-item{
+  margin-bottom: 8px;
   width: calc((100% - 72px)/4);
   font-weight: 500;
   font-size: 20px;
