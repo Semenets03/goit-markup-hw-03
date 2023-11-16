@@ -20,8 +20,6 @@ body{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    box-sizing: border-box;
-    display: flex;
   }
   .header-conteiner{
     width: 1158px;
@@ -69,13 +67,8 @@ li{
   }
   .page-header{
     border-bottom:  1px solid #e7e9fc;
-    display: flex;
-    margin: auto;
-    padding: 15px;
   }
   .page-navigation{
-   background: var(--WHITE, #FFF);
-   text-decoration: none;
    display: flex;
    align-items: center;
   }
@@ -283,6 +276,7 @@ li{
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;  
+  margin: 0;
  }
  .made-menu-item-text{
   font-family: Roboto,sans-serif;
