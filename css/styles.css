@@ -83,7 +83,7 @@ body{
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--IRIS, #4D5AE5);
-   margin-right: 76px;
+   margin: 0;
   
   }
   .logotype-span{
@@ -141,7 +141,6 @@ body{
    letter-spacing: 0.02em;
    color: var(--SLATE, #434455);
    display: block;
-   padding: 10px;
    border-radius: 4px;
    text-decoration: none;
    display: flex;
@@ -423,12 +422,6 @@ gap: 24px;
   color: var(--CLOUD, #F4F4FD);
   letter-spacing: 0.03em;
   display: inline-block
- }
- .logotype{
-    margin-bottom: 16px;
-    display: inline-block;
-    margin-bottom: 16px;
-   
  }
 
  .logotype-span-foot{
