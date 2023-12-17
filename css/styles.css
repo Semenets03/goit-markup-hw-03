@@ -38,7 +38,6 @@ body{
   a{
     text-decoration: none;
   }
- 
 
   .menu{
     display: flex;
@@ -341,7 +340,8 @@ gap: 24px;
  .section-portfolio-title{
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
+  gap: 24px
+  ;
  }
  .section-title{
   margin-bottom: 72px;
@@ -361,10 +361,10 @@ gap: 24px;
  }
  
  .div{  
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
   padding-top: 32px ;
   padding-bottom: 32px;
-  padding-left: 0;
-  padding-right: 0;
+padding-left: ;
  }
  .portfolio-name{
   font-family: Roboto, sans-serif;
@@ -398,7 +398,7 @@ gap: 24px;
  .end{
    padding: 100px 0;
    background: var(--NAVY-BLUE, #2E2F42);
-   display: block
+   display: inline-block
  }
 
  .text-end{
@@ -411,6 +411,7 @@ gap: 24px;
   color: #f4f4fd;
   color: var(--CLOUD, #F4F4FD);
   letter-spacing: 0.03em;
+  display: inline-block
  }
 
  .logotype-span-foot{
