@@ -173,6 +173,7 @@ ul {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
+    height: 100%;
     display: block;
     min-width: 169px;
     height: 56px;
